@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.1"
+  version: "0.5.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://codeload.github.com/NVIDIA/nvalchemi-toolkit-ops/tar.gz/refs/tags/v${{ version }}
-  sha256: 9035dc52230e65b6a736376ca476b8578b7c29337876e21512150aee7250d1ea
+  sha256: b8f6f15c437b516c61f68c7ad92b2104103f971fb3b27d8e3c4cdde2360af666
 
 build:
   number: 0
